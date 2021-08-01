@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Student Registration Form </title>
+  </head>
+  <body>
+    <h2><u>Student Registration Form</u> </h3>
+      <form>
+
+      <table align="center" cellpadding="5">
+      <tr>
+      <td>First Name</td>
+      <td><input type="text" name="FirstName" maxlength="20" />
+      (Max 20 Characters Allowed)
+      </td>
+      </tr>
+     
+      <tr>
+        <td>Father's Name</td>
+        <td><input type="text" name="MiddleName" maxlength="20"/>
+        (Max 20 Characters Allowed)
+        </td>
+      </tr>
+      <tr>
+        <td>Last Name</td>
+        <td><input type="text" name="LastName" maxlength="50"/>
+        (Max 50 Characters Allowed)
+        </td>
+      </tr>
+       
+      <tr>
+        <td>Mobile Number</td>
+        <td><input type="Number" name="phonenumber" size="10"  />
+        </td>
+        </tr>
+
+       <tr>
+        <td>Email ID</td>
+       <td><input type="email" name="EmailID" maxlength="100"></td>
+       </tr>
+
+       <tr>
+<td>Gender</td>
+<td>
+<input type="radio" name="Gender" value="Female" />
+Female
+<input type="radio" name="Gender" value="Other" />
+Other
+</td>
+</tr>
+
+<tr>
+    <td>DOB</td>
+      <td><input type="date" name="dob" id="dob" size="30"></td>
+      </tr>
+  
+ 
+  
+  
+  <tr> 
+      <td>10th Std Marks</td>
+           <td><input type="decimalnumber" name="Marks"  maxlength="5"></td>
+           </tr>     
+  <tr> 
+      <td>12th Std/Diploma Marks</td>
+       <td><input type="decimalnumber" name="Marks"  maxlength="5"></td>
+         </tr>     
+  <tr>
+      <td>Course Applied for :</td>
+
+      <td><select name="Course ">
+            <option value="-1" selected>select..</option>
+            <option value="TY.BTech">TY BTECH</option>
+            <option value="B.Tech">BTECH</option>
+            </select></td>
+            </tr>
+ <tr> 
+     <td>Overall CGPA</td>
+            <td><input type="decimalnumber" name="CGPA"  maxlength="5"></td>
+            </tr>        
+
+
+<tr>
+    <td>Address<br /><br /><br /></td>
+    <td><textarea name="Address" rows="8" cols="20"></textarea></td>
+    </tr>
+    
+    <tr>
+    <td>City</td>
+    <td><input type="text" name="City" maxlength="50" />
+    (Max 50 Characters Allowed)
+    </td>
+    </tr>\
+        <tr>
+    <td>Pin Code</td>
+    <td><input type="Number" name="PinCode" maxlength="6" />
+    (Max 6 Numbers Allowed)
+    </td>
+    </tr>
+
+    <tr>
+    <td>State</td>
+    <td><input type="text" name="State" maxlength="50" />
+    (Max 50 Characters Allowed)
+    </td>
+    </tr>
+ 
+    <tr>
+    <td>Country</td>
+    <td><input type="text" name="Country" /></td>
+    </tr>
+
+ 
+   
+    <tr>
+    <td colspan="2" align="center">
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    </td>
+    </tr>
+    </table>
+    </form>
+  </body>
+</html>
