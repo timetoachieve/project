@@ -16,4 +16,4 @@
     All the components are exported from a common index.js file in the components directory.  
     Navbar contains the easy access links for profile and the drawer contains links to all other screens
     currently only dashboard link is added.  
-
+5. Create Table View for screens like dashboard and company schedule

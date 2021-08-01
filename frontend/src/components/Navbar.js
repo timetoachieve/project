@@ -7,6 +7,8 @@ import AccountCircle from '@material-ui/icons/AccountCircle';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import DashboardIcon from '@material-ui/icons/Dashboard';
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
+import ScheduleIcon from '@material-ui/icons/Schedule';
+import { CompanyListScreen, CompanyScheduleScreen } from '../pages';
 
 const drawerWidth = 240;
 
@@ -84,6 +86,12 @@ const mainListItems = (
         <DashboardIcon />
       </ListItemIcon>
       <ListItemText primary='Dashboard' />
+    </ListItem>
+    <ListItem button>
+      <ListItemIcon>
+        <ScheduleIcon />
+      </ListItemIcon>
+      <ListItemText primary='Schedule' />
     </ListItem>
   </div>
 );
@@ -184,6 +192,9 @@ export default function Navbar () {
     </Drawer>
     <main className={classes.content}>
       <div className={classes.appBarSpacer} />
+      <CompanyListScreen />
+      <Divider />
+      <CompanyScheduleScreen />
     </main>
   </div>;
   
